@@ -30,7 +30,7 @@ const auth = getAuth(app);
 onAuthStateChanged(auth, (user) => {
   if (!user) {
     console.log(user);
-    window.location.href = "login.html";
+    window.location.href = "Login.html";
   } else {
   }
 });

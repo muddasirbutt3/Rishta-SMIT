@@ -46,6 +46,7 @@ button:hover {
 /* Product Cards Section */
 .product-section {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
@@ -53,7 +54,7 @@ button:hover {
 
 .product-card {
     background-color: #f9f9f9;
-    width: 250px;
+    width: 20%;
     min-height: 200px;
     padding: 15px;
     border-radius: 10px;
@@ -63,7 +64,8 @@ button:hover {
 
 .product-card img {
     width: 100%;
-    height: 150px;
+    /* object-position: 10px 0px; */
+    height: 200px;
     object-fit: cover;
     border-radius: 5px;
 }
